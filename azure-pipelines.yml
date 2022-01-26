@@ -12,9 +12,7 @@ variables:
     dotnetSdkVersion: '5.x'
   
 steps:
-  - task: PowerShellOnTargetMachines@1
-    displayName: 'byCiup'      
-    
+      
   - task: UseDotNet@2
     displayName: 'Use .NET SDK $(dotnetSdkVersion)'
     inputs:
